@@ -1,0 +1,267 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Strategy</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Strategy</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelGroup" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<textarea id="docsrc" style="display:none"></textarea>
+						<div id="doctgt" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/c8f89d80-b1a0-4408-8638-ece60ed3ff57.html" target="element"> Business capability map </a> </td>
+											    <td> <a href="../elements/c8f89d80-b1a0-4408-8638-ece60ed3ff57.html" target="element" class="i18n-elementtype-Grouping"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/503cd902-5831-4a8e-bef5-97b742ab72b9.html" target="element"> [Course of Action] </a> </td>
+											    <td> <a href="../elements/503cd902-5831-4a8e-bef5-97b742ab72b9.html" target="element" class="i18n-elementtype-CourseOfAction"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/cf4cc6d9-90fe-4255-8c4e-2bbee377933b.html" target="element"> [Goal] </a> </td>
+											    <td> <a href="../elements/cf4cc6d9-90fe-4255-8c4e-2bbee377933b.html" target="element" class="i18n-elementtype-Goal"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/4c8fad0a-0d9c-4819-afc7-06ccc69c9152.html" target="element"> [Domain] </a> </td>
+											    <td> <a href="../elements/4c8fad0a-0d9c-4819-afc7-06ccc69c9152.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/00f9b824-763f-4646-b089-198a15c48bf7.html" target="element"> [Capability] </a> </td>
+											    <td> <a href="../elements/00f9b824-763f-4646-b089-198a15c48bf7.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/6640e3c7-0be3-4474-ada8-2ce1be0d01c5.html" target="element"> [Service] </a> </td>
+											    <td> <a href="../elements/6640e3c7-0be3-4474-ada8-2ce1be0d01c5.html" target="element" class="i18n-elementtype-Capability"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/5615b297-90bc-49fd-9e00-6e1623c5cc9a.html" target="element"> [Value] </a> </td>
+											    <td> <a href="../elements/5615b297-90bc-49fd-9e00-6e1623c5cc9a.html" target="element" class="i18n-elementtype-Value"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/a6471d9c-9b8d-4d16-8d65-5a8cade9af47.html" target="element"> [Information] </a> </td>
+											    <td> <a href="../elements/a6471d9c-9b8d-4d16-8d65-5a8cade9af47.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/fb6ed489-561e-4c28-9d91-47f37d336bb3.html" target="element"> [Stakeholder] </a> </td>
+											    <td> <a href="../elements/fb6ed489-561e-4c28-9d91-47f37d336bb3.html" target="element" class="i18n-elementtype-Stakeholder"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/0959a3b1-1ceb-443a-8e40-8d265ed3f00d.html" target="element"> [Resource] </a> </td>
+											    <td> <a href="../elements/0959a3b1-1ceb-443a-8e40-8d265ed3f00d.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/75a0f32d-0ee2-4a19-b4ac-161131a5b954.html" target="element"> [HR] </a> </td>
+											    <td> <a href="../elements/75a0f32d-0ee2-4a19-b4ac-161131a5b954.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/e3119306-e227-4713-971a-84764607862b.html" target="element"> [Experience] </a> </td>
+											    <td> <a href="../elements/e3119306-e227-4713-971a-84764607862b.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/4a058731-c489-428c-905c-1d498bf0af82.html" target="element"> [Product] </a> </td>
+											    <td> <a href="../elements/4a058731-c489-428c-905c-1d498bf0af82.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/c2101ce8-c6c9-41cf-a5a7-b53cff9a0483.html" target="element"> [Technology] </a> </td>
+											    <td> <a href="../elements/c2101ce8-c6c9-41cf-a5a7-b53cff9a0483.html" target="element" class="i18n-elementtype-Resource"> </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/f51ddc73-155c-4bc6-9938-88902776c21c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/f51ddc73-155c-4bc6-9938-88902776c21c.html" target="element" class="i18n-elementtype-FlowRelationship"></a> </td>
+																		<td> <a href="../elements/c8f89d80-b1a0-4408-8638-ece60ed3ff57.html" target="element"> Business capability map </a> </td>
+																		<td> <a href="../elements/0959a3b1-1ceb-443a-8e40-8d265ed3f00d.html" target="element"> [Resource] </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/49b360a1-ffa3-469e-84d5-1e9db07420f7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/49b360a1-ffa3-469e-84d5-1e9db07420f7.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/c8f89d80-b1a0-4408-8638-ece60ed3ff57.html" target="element"> Business capability map </a> </td>
+																		<td> <a href="../elements/740dad12-073c-4f8f-82c1-d21030de2f9e.html" target="element"> [Value Stage] </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/ff0b77b1-08a0-43dc-9639-ff3c59b81bde.html" target="element">  </a> </td>
+																		<td> <a href="../elements/ff0b77b1-08a0-43dc-9639-ff3c59b81bde.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/c8f89d80-b1a0-4408-8638-ece60ed3ff57.html" target="element"> Business capability map </a> </td>
+																		<td> <a href="../elements/503cd902-5831-4a8e-bef5-97b742ab72b9.html" target="element"> [Course of Action] </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/ad9c806e-f33c-43b2-9507-919cd65f526c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/ad9c806e-f33c-43b2-9507-919cd65f526c.html" target="element" class="i18n-elementtype-InfluenceRelationship"></a> </td>
+																		<td> <a href="../elements/503cd902-5831-4a8e-bef5-97b742ab72b9.html" target="element"> [Course of Action] </a> </td>
+																		<td> <a href="../elements/cf4cc6d9-90fe-4255-8c4e-2bbee377933b.html" target="element"> [Goal] </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/6c53361a-2698-435b-842c-7ce3c3ef2811.html" target="element">  </a> </td>
+																		<td> <a href="../elements/6c53361a-2698-435b-842c-7ce3c3ef2811.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/4c8fad0a-0d9c-4819-afc7-06ccc69c9152.html" target="element"> [Domain] </a> </td>
+																		<td> <a href="../elements/00f9b824-763f-4646-b089-198a15c48bf7.html" target="element"> [Capability] </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/c7cb95e0-2bb4-4578-b348-b06240057519.html" target="element">  </a> </td>
+																		<td> <a href="../elements/c7cb95e0-2bb4-4578-b348-b06240057519.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/00f9b824-763f-4646-b089-198a15c48bf7.html" target="element"> [Capability] </a> </td>
+																		<td> <a href="../elements/6640e3c7-0be3-4474-ada8-2ce1be0d01c5.html" target="element"> [Service] </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/90c2fe6d-ac3d-4248-83bb-6332874e8a5a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/90c2fe6d-ac3d-4248-83bb-6332874e8a5a.html" target="element" class="i18n-elementtype-AssociationRelationship"></a> </td>
+																		<td> <a href="../elements/5615b297-90bc-49fd-9e00-6e1623c5cc9a.html" target="element"> [Value] </a> </td>
+																		<td> <a href="../elements/e8834cec-638d-482e-9524-ff1db5c524a4.html" target="element">  </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/7d5c8455-9df3-443d-a12a-3883b5da6975.html" target="element">  </a> </td>
+																		<td> <a href="../elements/7d5c8455-9df3-443d-a12a-3883b5da6975.html" target="element" class="i18n-elementtype-SpecializationRelationship"></a> </td>
+																		<td> <a href="../elements/a6471d9c-9b8d-4d16-8d65-5a8cade9af47.html" target="element"> [Information] </a> </td>
+																		<td> <a href="../elements/0959a3b1-1ceb-443a-8e40-8d265ed3f00d.html" target="element"> [Resource] </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/dfa9cb9d-73ed-4520-b228-2fdf23fb351c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/dfa9cb9d-73ed-4520-b228-2fdf23fb351c.html" target="element" class="i18n-elementtype-InfluenceRelationship"></a> </td>
+																		<td> <a href="../elements/fb6ed489-561e-4c28-9d91-47f37d336bb3.html" target="element"> [Stakeholder] </a> </td>
+																		<td> <a href="../elements/c8f89d80-b1a0-4408-8638-ece60ed3ff57.html" target="element"> Business capability map </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/6339c1d6-49ee-49eb-a3c9-80098dec3724.html" target="element">  </a> </td>
+																		<td> <a href="../elements/6339c1d6-49ee-49eb-a3c9-80098dec3724.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/0959a3b1-1ceb-443a-8e40-8d265ed3f00d.html" target="element"> [Resource] </a> </td>
+																		<td> <a href="../elements/c8f89d80-b1a0-4408-8638-ece60ed3ff57.html" target="element"> Business capability map </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/8a8a72cc-da37-42ed-8beb-2c59aa00f12a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/8a8a72cc-da37-42ed-8beb-2c59aa00f12a.html" target="element" class="i18n-elementtype-SpecializationRelationship"></a> </td>
+																		<td> <a href="../elements/75a0f32d-0ee2-4a19-b4ac-161131a5b954.html" target="element"> [HR] </a> </td>
+																		<td> <a href="../elements/0959a3b1-1ceb-443a-8e40-8d265ed3f00d.html" target="element"> [Resource] </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/191c5a7e-065d-4f60-903d-47452c7f6614.html" target="element">  </a> </td>
+																		<td> <a href="../elements/191c5a7e-065d-4f60-903d-47452c7f6614.html" target="element" class="i18n-elementtype-SpecializationRelationship"></a> </td>
+																		<td> <a href="../elements/e3119306-e227-4713-971a-84764607862b.html" target="element"> [Experience] </a> </td>
+																		<td> <a href="../elements/0959a3b1-1ceb-443a-8e40-8d265ed3f00d.html" target="element"> [Resource] </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/2e3378d2-61da-4617-9785-8b3565c07397.html" target="element">  </a> </td>
+																		<td> <a href="../elements/2e3378d2-61da-4617-9785-8b3565c07397.html" target="element" class="i18n-elementtype-SpecializationRelationship"></a> </td>
+																		<td> <a href="../elements/4a058731-c489-428c-905c-1d498bf0af82.html" target="element"> [Product] </a> </td>
+																		<td> <a href="../elements/0959a3b1-1ceb-443a-8e40-8d265ed3f00d.html" target="element"> [Resource] </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/bf7f33c0-629f-4518-b3dc-38459746c991.html" target="element">  </a> </td>
+																		<td> <a href="../elements/bf7f33c0-629f-4518-b3dc-38459746c991.html" target="element" class="i18n-elementtype-SpecializationRelationship"></a> </td>
+																		<td> <a href="../elements/c2101ce8-c6c9-41cf-a5a7-b53cff9a0483.html" target="element"> [Technology] </a> </td>
+																		<td> <a href="../elements/0959a3b1-1ceb-443a-8e40-8d265ed3f00d.html" target="element"> [Resource] </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
